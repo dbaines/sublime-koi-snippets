@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[<%= render_navigation renderer: :sf_menu, items: NavItem.navigation("${1:header_navigation}", binding()), level: ${2:1}, expand_all: true, dom_class: '${3:navigation navigation-primary}' %>]]></content>
+    <content><![CDATA[<%= render_navigation renderer: :sf_menu, items: NavItem.navigation("${1:header_navigation}", binding()), level: ${2:1}, expand_all: true, dom_class: '${3:}' %>]]></content>
     <tabTrigger>koinavold</tabTrigger>
     <scope>text.html.ruby</scope>
     <description>koi nav (non-cached version)</description>
