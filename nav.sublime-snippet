@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[<%= koi_render_navigation "${1:header_nav}", "${2:header_navigation}", renderer: :sf_menu, level: ${3:1}, expand_all: true, dom_class: '${4:navigation navigation-primary navigation-horizontal}' %>]]></content>
+    <tabTrigger>koinav</tabTrigger>
+    <scope>text.html.ruby</scope>
+    <description>koi nav</description>
+</snippet>

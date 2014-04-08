@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[<form class="header--search search form_inline" action='<%= search_index_path %>' method='get'>
+  <div class="form_inline--input-container">
+    <input type="text" class="search--input form_inline--input input_flat-right" placeholder="Search" name='q' />
+  </div>
+  <button class="search--button form_inline--button">Search</button>      
+</form>]]></content>
+    <tabTrigger>koisearch</tabTrigger>
+    <scope>text.html.ruby</scope>
+    <description>koi search form</description>
+</snippet>
