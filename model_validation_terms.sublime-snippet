@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[validates :${1:terms}, acceptance: {
+    message: '${2:Please read and accept our terms and conditions before submitting.}',
+    accept: true
+}, on: :create]]></content>
+    <tabTrigger>modelvalidateterms</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>koi model terms validation</description>
+</snippet>

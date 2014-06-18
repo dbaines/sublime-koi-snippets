@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[validates_format_of :${1:email_address}, with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i, allow_blank: true, message: '${2:Please supply a valid email address}']]></content>
+    <tabTrigger>modelvalidateemail</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>koi model email validation</description>
+</snippet>

@@ -17,3 +17,12 @@ Generates the required code to turn image_uid and image_name in to a upload imag
 
 `modeladminfields`
 Generates a template for koi admin index fields and form fields.
+
+`modelvalidation`
+Generates a simple presence validation for a model
+
+`modelvalidateemail`
+Generates an email regex validation for a model
+
+`modelvalidateterms`
+Generate a boolean validation for terms

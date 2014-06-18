@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[validates ${1::title}, presence: true]]></content>
+    <tabTrigger>modelvalidation</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>koi model validation</description>
+</snippet>
