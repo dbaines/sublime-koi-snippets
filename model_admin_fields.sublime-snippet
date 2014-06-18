@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[crud.config do
+  config :admin do
+    index fields: [:title, :image],
+          order: {date: :desc}
+    form  fields: [:title, :image, :description]
+  end
+end
+
+def to_s
+  title
+end]]></content>
+    <tabTrigger>modeladminfields</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>koi model admin fields</description>
+</snippet>

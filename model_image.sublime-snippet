@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[image_accessor :${1:image}
+
+crud.config do
+  fields ${1:image}:  { type: :image }
+end]]></content>
+    <tabTrigger>modelimage</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>koi model image</description>
+</snippet>
