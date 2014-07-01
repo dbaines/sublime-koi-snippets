@@ -13,16 +13,19 @@ Generates a `model.setting` with role and field_type defaults.
 Generates markup for a search form.  
 
 `modelimage`  
-Generates the required code to turn image_uid and image_name in to a upload image field on the model. 
+Generates the required code to turn image_uid and image_name in to a upload image field on the model.  
 
 `modeladminfields`  
-Generates a template for koi admin index fields and form fields.
+Generates a template for koi admin index fields and form fields.  
+
+`modelactive`  
+Generates the field type for an active boolean along with a scope for showing only items that are active.  
 
 `modelvalidation`  
-Generates a simple presence validation for a model
+Generates a simple presence validation for a model.  
 
 `modelvalidateemail`  
-Generates an email regex validation for a model
+Generates an email regex validation for a model.  
 
 `modelvalidateterms`  
-Generate a boolean validation for terms
+Generate a boolean validation for terms.  
