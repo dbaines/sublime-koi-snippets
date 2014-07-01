@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[scope :${1:active}, where(${1:active}: true)
+
+crud.config do
+  fields ${1:active}:  { type: :boolean }
+end]]></content>
+    <tabTrigger>modelactive</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>koi model active</description>
+</snippet>

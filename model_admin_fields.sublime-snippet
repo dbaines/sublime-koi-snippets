@@ -2,7 +2,7 @@
     <content><![CDATA[crud.config do
   config :admin do
     index fields: [:title, :image],
-          order: {date: :desc}
+          order: {created_at: :desc}
     form  fields: [:title, :image, :description]
   end
 end
