@@ -29,3 +29,6 @@ Generates an email regex validation for a model.
 
 `modelvalidateterms`  
 Generate a boolean validation for terms.  
+
+`jsboiler`  
+Generate a boilerplate for ornament Javascript. 

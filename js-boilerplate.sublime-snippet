@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[/*jslint browser: true, indent: 2, todo: true, unparam: true */
+/*global jQuery,Ornament /*/
+
+(function (document, window, \$) \{
+
+  "use strict";
+
+  \$(document).on("ornament:refresh", function () \{
+
+    $0
+
+  \});
+
+\}(document, window, jQuery));]]></content>
+    <tabTrigger>jsboiler</tabTrigger>
+    <scope>source.js</scope>
+    <description>Ornament Javascript Boilerplate</description>
+</snippet>
+
