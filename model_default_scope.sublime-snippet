@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[default_scope order('created_at DESC'))]]></content>
+    <content><![CDATA[default_scope order('created_at DESC')]]></content>
     <tabTrigger>modeldefaultscope</tabTrigger>
     <scope>source.ruby</scope>
     <description>koi model default scope</description>
