@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[def yes_or_no(value=false)
+  value ? "Yes" : "No"
+end]]></content>
+    <tabTrigger>helperyesno</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>koi helper yes or no</description>
+</snippet>

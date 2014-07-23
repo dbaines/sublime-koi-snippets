@@ -38,6 +38,11 @@ Generates an email regex validation for a model.
 `modelvalidateterms`  
 Generate a boolean validation for terms.  
 
+## Helper Snippets
+
+`helperyesno`  
+A helper function to turn true/false in to yes/no.   
+
 ## JS Snipppets
 
 `jsboiler`  
