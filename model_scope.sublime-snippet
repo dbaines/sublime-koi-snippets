@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[default_scope order('created_at DESC'))]]></content>
+    <tabTrigger>modelscope</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>koi model scope</description>
+</snippet>
