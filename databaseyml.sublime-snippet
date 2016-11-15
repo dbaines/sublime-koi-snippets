@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[default: &default
+ adapter: postgresql
+ encoding: unicode
+ pool: 5
+ username: david
+ host: localhost
+
+development:
+ <<: *default
+ database: ${1}_development
+
+test:
+ <<: *default
+ database: ${1}_test
+
+production:
+ <<: *default
+ database: ${1}_development]]></content>
+    <tabTrigger>database yml</tabTrigger>
+    <description>database yml (postgres)</description>
+</snippet>
