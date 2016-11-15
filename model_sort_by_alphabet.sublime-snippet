@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[scope :alphabetical, -> { order(${1:title}: :${2:asc}) }]]></content>
+    <tabTrigger>modelsortalpha</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>Model Scope to sort alphabetically</description>
+</snippet>
