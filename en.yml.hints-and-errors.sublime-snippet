@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[simple_form:
+    labels:
+      my_model:
+        my_field: "Label"
+    hints:
+      my_model:
+        my_field: "Hint"
+  activerecord:
+    errors:
+      models:
+        my_model:
+          attributes:
+            my_field:
+              taken: 'Email address is already subscribed'
+              invalid: 'Please enter a valid email address'
+              blank: 'Please enter an email address']]></content>
+    <tabTrigger>hints</tabTrigger>
+    <scope>source.yaml</scope>
+    <description>koi language hints</description>
+</snippet>
